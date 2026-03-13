@@ -1,0 +1,29 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Abstract tech background",
+      "imageUrl": "https://picsum.photos/seed/tech1/1920/1080",
+      "imageHint": "abstract technology"
+    },
+    {
+      "id": "project-spreeh",
+      "description": "Wedding event management app",
+      "imageUrl": "https://picsum.photos/seed/spreeh/800/600",
+      "imageHint": "wedding event"
+    },
+    {
+      "id": "project-fintech",
+      "description": "Fintech gold loan platform",
+      "imageUrl": "https://picsum.photos/seed/fintech/800/600",
+      "imageHint": "finance app"
+    },
+    {
+      "id": "project-modi11",
+      "description": "Content delivery platform",
+      "imageUrl": "https://picsum.photos/seed/modi11/800/600",
+      "imageHint": "content platform"
+    }
+  ]
+}

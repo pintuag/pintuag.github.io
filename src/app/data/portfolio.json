@@ -1,0 +1,94 @@
+
+{
+  "profile": {
+    "name": "Pintoo Aggarwal",
+    "title": "Senior Software Engineer",
+    "subtitle": "Backend & Platform Engineer | AI-Augmented Development",
+    "description": "Senior Software Engineer with over seven years of experience building scalable mobile and backend platforms across fintech, logistics, and enterprise systems. Expert in designing distributed backend systems, building reliable microservices architectures, and improving developer productivity.",
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "email": "pintoo.aggarwal@example.com",
+      "portfolio": "https://arcflow.io"
+    },
+    "stats": [
+      { "label": "Engineering Experience", "value": "7+ Years" },
+      { "label": "Production Systems", "value": "High-Scale" },
+      { "label": "Platform Expertise", "value": "Fintech & Enterprise" },
+      { "label": "Workflow", "value": "AI-Augmented" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "DHL (Nityo Infotech)",
+      "role": "Senior Software Engineer",
+      "duration": "Nov 2024 – Present",
+      "location": "Gurgaon, India",
+      "tech": ["Kotlin", "Java", "Spring Boot", "Copilot", "OpenAPI", "GitHub Actions"],
+      "achievements": [
+        "Architected an enterprise Automation Framework Manager enabling scalable job orchestration across distributed systems.",
+        "Designed and deployed 4+ Spring Boot microservices powering internal automation platforms.",
+        "Implemented OpenAPI-based backend code generation pipelines accelerating engineering velocity.",
+        "Developed automated Pull Request validation pipelines using GitHub Actions to enforce engineering standards.",
+        "Led adoption of AI-assisted development workflows improving developer productivity."
+      ]
+    },
+    {
+      "company": "Rupeek",
+      "role": "Senior Software Engineer II",
+      "duration": "Feb 2021 – Sep 2024",
+      "location": "Bangalore, India",
+      "tech": ["Kotlin", "Android", "Java", "Spring Boot", "PostgreSQL", "Firebase"],
+      "achievements": [
+        "Developed backend services supporting customer KYC and gold loan disbursements processing thousands of daily transactions.",
+        "Built UPI AutoPay-based recurring payment infrastructure processing 15k+ automated transactions monthly.",
+        "Led development of a mission-critical internal application used across six operational departments.",
+        "Increased crash-free user rate from 85% to 98% through platform stabilization.",
+        "Reduced operational support tickets by 30% by improving observability pipelines."
+      ]
+    },
+    {
+      "company": "TechAhead",
+      "role": "Associate Android Developer",
+      "duration": "Mar 2020 – Feb 2021",
+      "location": "Noida, India",
+      "tech": ["Kotlin", "Android", "MVVM", "Google Maps SDK"],
+      "achievements": [
+        "Led development and deployment of 5 Android applications including Swagit social platform.",
+        "Revamped City Domination mobile game scaling to 800k+ installs.",
+        "Implemented modern Android architecture using Kotlin, MVVM, and Jetpack components."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Spreeh",
+      "category": "Event Management",
+      "description": "A cross-platform wedding event management platform using Flutter and FastAPI designed for guest coordination and vendor planning.",
+      "tech": ["Flutter", "FastAPI", "Supabase", "Firebase"],
+      "image": "project-spreeh"
+    },
+    {
+      "title": "Gold Loan Disbursement Platform",
+      "category": "Fintech",
+      "description": "Backend services and Android applications powering digital gold loan disbursement and UPI AutoPay repayment workflows.",
+      "tech": ["Kotlin", "Spring Boot", "PostgreSQL", "UPI AutoPay"],
+      "image": "project-fintech"
+    },
+    {
+      "title": "Modi 11 Content Platform",
+      "category": "Mobile Content",
+      "description": "Android content delivery platform reaching more than 700k installs on the Google Play Store.",
+      "tech": ["Android", "Kotlin", "Firebase", "Real-time Messaging"],
+      "image": "project-modi11"
+    }
+  ],
+  "skills": {
+    "Languages": ["Kotlin", "Java", "Python", "TypeScript", "JavaScript"],
+    "Backend": ["Spring Boot", "FastAPI", "Node.js", "KTOR", "REST APIs", "Microservices"],
+    "Mobile": ["Android", "Flutter", "MVVM", "Clean Architecture", "Coroutines", "Flow"],
+    "Databases": ["PostgreSQL", "MongoDB", "Oracle", "ElasticSearch", "GreenDAO"],
+    "Cloud & DevOps": ["AWS", "GCP", "Azure", "Docker", "Jenkins", "GitHub Actions", "CI/CD"],
+    "AI Development": ["GitHub Copilot", "Cursor AI", "OpenCode", "OpenAPI Code Generation"]
+  }
+}
