@@ -9,20 +9,20 @@
     },
     {
       "id": "project-spreeh",
-      "description": "Spreeh wedding management",
-      "imageUrl": "https://picsum.photos/seed/spreeh/800/600",
-      "imageHint": "wedding management"
+      "description": "Spreeh wedding and event management platform",
+      "imageUrl": "https://picsum.photos/seed/spreeh-v2/800/600",
+      "imageHint": "wedding celebration"
     },
     {
       "id": "project-fintech",
-      "description": "Rupeek gold loan platform",
-      "imageUrl": "https://picsum.photos/seed/rupeek/800/600",
+      "description": "Rupeek gold loan disbursement platform",
+      "imageUrl": "https://picsum.photos/seed/rupeek-gold/800/600",
       "imageHint": "gold finance"
     },
     {
       "id": "project-modi11",
-      "description": "Modi 11 app interface",
-      "imageUrl": "https://picsum.photos/seed/modi11/800/1200",
+      "description": "Modi 11 mobile content platform",
+      "imageUrl": "https://picsum.photos/seed/modi11-app/800/600",
       "imageHint": "mobile dashboard"
     }
   ]

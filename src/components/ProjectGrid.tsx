@@ -3,8 +3,6 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import portfolioData from "@/app/data/portfolio.json";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -43,7 +41,7 @@ export function ProjectGrid() {
                   href={project.link} 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="block group"
+                  className="block group h-full"
                 >
                   <Card className="glass-card h-full overflow-hidden border-white/5 transition-all hover:-translate-y-2 hover:border-primary/30">
                     <div className="relative h-48 w-full overflow-hidden">
@@ -51,14 +49,9 @@ export function ProjectGrid() {
                         src={img.imageUrl}
                         alt={img.description}
                         fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
                         data-ai-hint={img.imageHint}
                       />
-                      <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <Badge variant="secondary" className="bg-primary text-primary-foreground gap-1.5">
-                          Visit Site <ExternalLink className="w-3 h-3" />
-                        </Badge>
-                      </div>
                     </div>
                     <CardHeader>
                       <div className="text-xs font-bold text-accent uppercase tracking-widest mb-1">
@@ -73,7 +66,7 @@ export function ProjectGrid() {
                         {project.description}
                       </p>
                     </CardContent>
-                    <CardFooter className="flex flex-wrap gap-2 pt-0">
+                    <CardFooter className="flex flex-wrap gap-2 pt-0 mt-auto">
                       {project.tech.map((t: string) => (
                         <span key={t} className="text-[10px] font-code bg-muted px-2 py-0.5 rounded text-muted-foreground">
                           {t}
