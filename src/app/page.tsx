@@ -1,12 +1,11 @@
-
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { ExperienceTimeline } from "@/components/ExperienceTimeline";
 import { ProjectGrid } from "@/components/ProjectGrid";
 import { SkillsSection } from "@/components/SkillsSection";
-import { AIInsightTool } from "@/components/AIInsightTool";
 import { Button } from "@/components/ui/button";
 import { Mail, Github, Linkedin, ExternalLink } from "lucide-react";
+import portfolioData from "@/app/data/portfolio.json";
 
 export default function Home() {
   return (
@@ -41,8 +40,6 @@ export default function Home() {
 
       <SkillsSection />
 
-      <AIInsightTool />
-
       <footer className="py-20 border-t bg-surface/30">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
@@ -52,30 +49,32 @@ export default function Home() {
                 Currently open to discussing Senior Engineering opportunities, system architecture consulting, and AI implementation strategies.
               </p>
               <div className="flex flex-col gap-4">
-                <a href="mailto:pintoo.aggarwal@example.com" className="flex items-center gap-3 text-lg hover:text-primary transition-colors">
-                  <Mail className="w-5 h-5 text-primary" /> pintoo.aggarwal@example.com
+                <a href={`mailto:${portfolioData.profile.social.email}`} className="flex items-center gap-3 text-lg hover:text-primary transition-colors">
+                  <Mail className="w-5 h-5 text-primary" /> {portfolioData.profile.social.email}
                 </a>
-                <span className="flex items-center gap-3 text-lg">
+                <a href={portfolioData.profile.social.linkedin} target="_blank" className="flex items-center gap-3 text-lg hover:text-primary transition-colors">
                   <Linkedin className="w-5 h-5 text-primary" /> linkedin.com/in/pintoo
-                </span>
+                </a>
               </div>
             </div>
             <div className="flex flex-col md:items-end justify-center gap-4">
-              <Button size="lg" className="w-full md:w-auto gap-2">
-                Download Resume <ExternalLink className="w-4 h-4" />
+              <Button size="lg" className="w-full md:w-auto gap-2" asChild>
+                <a href={portfolioData.profile.social.resume} target="_blank" rel="noopener noreferrer">
+                  Download Resume <ExternalLink className="w-4 h-4" />
+                </a>
               </Button>
               <div className="flex gap-4">
-                <Button variant="outline" size="icon" className="rounded-full">
-                  <Github className="w-5 h-5" />
+                <Button variant="outline" size="icon" className="rounded-full" asChild>
+                  <a href={portfolioData.profile.social.github} target="_blank"><Github className="w-5 h-5" /></a>
                 </Button>
-                <Button variant="outline" size="icon" className="rounded-full">
-                  <Linkedin className="w-5 h-5" />
+                <Button variant="outline" size="icon" className="rounded-full" asChild>
+                  <a href={portfolioData.profile.social.linkedin} target="_blank"><Linkedin className="w-5 h-5" /></a>
                 </Button>
               </div>
             </div>
           </div>
           <div className="pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-            <p>© {new Date().getFullYear()} Pintoo Aggarwal. Built with Next.js & Framer Motion.</p>
+            <p>© {new Date().getFullYear()} {portfolioData.profile.name}. Built with Next.js & Framer Motion.</p>
             <p>Designed for High Performance & Scalability.</p>
           </div>
         </div>

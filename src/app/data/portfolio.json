@@ -1,4 +1,3 @@
-
 {
   "profile": {
     "name": "Pintoo Aggarwal",
@@ -9,7 +8,8 @@
       "github": "https://github.com",
       "linkedin": "https://linkedin.com",
       "email": "pintoo.aggarwal@example.com",
-      "portfolio": "https://arcflow.io"
+      "portfolio": "https://arcflow.io",
+      "resume": "https://drive.google.com/file/d/1twc75widCgq10eVpArtxxJEP-ogf5ZRZ/view?usp=sharing"
     },
     "stats": [
       { "label": "Engineering Experience", "value": "7+ Years" },
@@ -48,6 +48,18 @@
       ]
     },
     {
+      "company": "Pristyn Care",
+      "role": "Software Engineer",
+      "duration": "Mar 2020 – Feb 2021",
+      "location": "Gurgaon, India",
+      "tech": ["Kotlin", "Android", "Java", "REST APIs"],
+      "achievements": [
+        "Contributed to the development of patient-facing mobile applications to streamline surgical care journeys.",
+        "Collaborated with cross-functional teams to implement secure health data management features.",
+        "Optimized mobile app performance ensuring high reliability for critical healthcare workflows."
+      ]
+    },
+    {
       "company": "TechAhead",
       "role": "Associate Android Developer",
       "duration": "Mar 2020 – Feb 2021",
@@ -57,6 +69,18 @@
         "Led development and deployment of 5 Android applications including Swagit social platform.",
         "Revamped City Domination mobile game scaling to 800k+ installs.",
         "Implemented modern Android architecture using Kotlin, MVVM, and Jetpack components."
+      ]
+    },
+    {
+      "company": "Zomeds",
+      "role": "Android Developer",
+      "duration": "Early Experience",
+      "location": "India",
+      "tech": ["Java", "Android SDK", "Firebase"],
+      "achievements": [
+        "Developed core features for medicine delivery and healthcare discovery platforms.",
+        "Integrated real-time tracking and payment gateways into the Android application.",
+        "Focused on creating intuitive user interfaces for diverse patient demographics."
       ]
     }
   ],

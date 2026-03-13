@@ -1,4 +1,3 @@
-
 "use client";
 
 import { motion } from "framer-motion";
@@ -42,8 +41,10 @@ export function Hero() {
             transition={{ delay: 0.3, duration: 0.5 }}
             className="flex flex-wrap justify-center gap-4 mb-16"
           >
-            <Button size="lg" className="gap-2 group">
-              View Work <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+            <Button size="lg" className="gap-2 group" asChild>
+              <a href="#projects">
+                View Work <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+              </a>
             </Button>
             <div className="flex gap-2">
               <Button variant="outline" size="icon" className="rounded-full" asChild>
