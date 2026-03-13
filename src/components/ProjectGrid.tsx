@@ -12,9 +12,9 @@ export function ProjectGrid() {
 
   const getImage = (id: string) => {
     return PlaceHolderImages.find((img) => img.id === id) || {
-      imageUrl: "https://picsum.photos/800/600",
+      imageUrl: "https://picsum.photos/seed/default-tech/800/600",
       description: "Project image",
-      imageHint: "tech"
+      imageHint: "technology"
     };
   };
 

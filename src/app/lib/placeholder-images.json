@@ -4,25 +4,25 @@
     {
       "id": "hero-bg",
       "description": "Abstract tech background",
-      "imageUrl": "https://picsum.photos/seed/tech1/1920/1080",
+      "imageUrl": "https://picsum.photos/seed/tech-abstract-dark/1920/1080",
       "imageHint": "abstract technology"
     },
     {
       "id": "project-spreeh",
       "description": "Spreeh wedding and event management platform",
-      "imageUrl": "https://picsum.photos/seed/spreeh-v2/800/600",
+      "imageUrl": "https://picsum.photos/seed/wedding-planning-app/800/600",
       "imageHint": "wedding celebration"
     },
     {
       "id": "project-fintech",
       "description": "Rupeek gold loan disbursement platform",
-      "imageUrl": "https://picsum.photos/seed/rupeek-gold/800/600",
+      "imageUrl": "https://picsum.photos/seed/banking-gold-finance/800/600",
       "imageHint": "gold finance"
     },
     {
       "id": "project-modi11",
       "description": "Modi 11 mobile content platform",
-      "imageUrl": "https://picsum.photos/seed/modi11-app/800/600",
+      "imageUrl": "https://picsum.photos/seed/mobile-content-dashboard/800/600",
       "imageHint": "mobile dashboard"
     }
   ]
