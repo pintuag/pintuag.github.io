@@ -1,3 +1,4 @@
+
 {
   "profile": {
     "name": "Pintoo Aggarwal",
@@ -88,23 +89,26 @@
     {
       "title": "Spreeh",
       "category": "Event Management",
-      "description": "A cross-platform wedding event management platform using Flutter and FastAPI designed for guest coordination and vendor planning.",
+      "description": "A cross-platform wedding event management platform designed for guest coordination and vendor planning.",
       "tech": ["Flutter", "FastAPI", "Supabase", "Firebase"],
-      "image": "project-spreeh"
+      "image": "project-spreeh",
+      "link": "https://www.spreeh.com/"
     },
     {
       "title": "Gold Loan Disbursement Platform",
       "category": "Fintech",
-      "description": "Backend services and Android applications powering digital gold loan disbursement and UPI AutoPay repayment workflows.",
+      "description": "Backend services and Android applications powering digital gold loan disbursement and UPI AutoPay repayment workflows at Rupeek.",
       "tech": ["Kotlin", "Spring Boot", "PostgreSQL", "UPI AutoPay"],
-      "image": "project-fintech"
+      "image": "project-fintech",
+      "link": "https://rupeek.com/"
     },
     {
       "title": "Modi 11 Content Platform",
       "category": "Mobile Content",
       "description": "Android content delivery platform reaching more than 700k installs on the Google Play Store.",
       "tech": ["Android", "Kotlin", "Firebase", "Real-time Messaging"],
-      "image": "project-modi11"
+      "image": "project-modi11",
+      "link": "https://play.google.com/store/apps/details?id=com.modipara&hl=en_IN&gl=US"
     }
   ],
   "skills": {
