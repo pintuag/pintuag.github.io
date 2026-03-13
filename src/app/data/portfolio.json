@@ -1,4 +1,3 @@
-
 {
   "profile": {
     "name": "Pintoo Aggarwal",
@@ -6,10 +5,10 @@
     "subtitle": "Backend & Platform Engineer | AI-Augmented Development",
     "description": "Senior Software Engineer with over seven years of experience building scalable mobile and backend platforms across fintech, logistics, and enterprise systems. Expert in designing distributed backend systems, building reliable microservices architectures, and improving developer productivity.",
     "social": {
-      "github": "https://github.com",
-      "linkedin": "https://linkedin.com",
+      "github": "https://github.com/pintoo",
+      "linkedin": "https://linkedin.com/in/pintoo",
       "email": "pintoo.aggarwal@example.com",
-      "portfolio": "https://arcflow.io",
+      "portfolio": "https://pintoo.dev",
       "resume": "https://drive.google.com/file/d/1twc75widCgq10eVpArtxxJEP-ogf5ZRZ/view?usp=sharing"
     },
     "stats": [
@@ -63,7 +62,7 @@
     {
       "company": "TechAhead",
       "role": "Associate Android Developer",
-      "duration": "Mar 2020 – Feb 2021",
+      "duration": "Oct 2018 – Feb 2020",
       "location": "Noida, India",
       "tech": ["Kotlin", "Android", "MVVM", "Google Maps SDK"],
       "achievements": [
@@ -75,7 +74,7 @@
     {
       "company": "Zomeds",
       "role": "Android Developer",
-      "duration": "Early Experience",
+      "duration": "June 2017 – Sep 2018",
       "location": "India",
       "tech": ["Java", "Android SDK", "Firebase"],
       "achievements": [
