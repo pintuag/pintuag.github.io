@@ -74,10 +74,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-            <p>© {new Date().getFullYear()} {portfolioData.profile.name}. Built with Next.js & Tailwind CSS.</p>
-            <p>Designed for High Performance & Scalability.</p>
-          </div>
         </div>
       </footer>
     </main>
