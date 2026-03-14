@@ -15,26 +15,6 @@ export default function Home() {
       
       <Hero />
 
-      <section id="about" className="py-24 relative">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <div className="glass-card p-8 md:p-12 rounded-3xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full -mr-16 -mt-16 blur-3xl" />
-            <h2 className="text-3xl font-bold mb-8">Engineering Narrative</h2>
-            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-              <p>
-                Senior Software Engineer with over seven years of experience building scalable mobile and backend platforms across fintech, logistics, and enterprise systems.
-              </p>
-              <p>
-                Experienced in designing distributed backend systems, building reliable microservices architectures, improving developer productivity, and delivering production-grade platforms used by internal operations teams and end customers.
-              </p>
-              <p>
-                Strong expertise across backend engineering, Android platform development, distributed systems design, and modern AI-assisted development workflows.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <ExperienceTimeline />
       
       <ProjectGrid />

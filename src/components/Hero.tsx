@@ -24,12 +24,19 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <span className="px-4 py-1.5 rounded-full border border-primary/20 bg-primary/10 text-primary text-xs font-bold tracking-widest uppercase mb-6 inline-block">
-              {profile.title}
-            </span>
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
+            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
               Hi, I'm <span className="gradient-text">{profile.name}</span>
             </h1>
+            <div className="flex flex-wrap justify-center gap-2 mb-6">
+              {profile.title.split(' | ').map((tag, idx) => (
+                <span
+                  key={idx}
+                  className="px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary text-sm font-medium"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
               {profile.description}
             </p>
